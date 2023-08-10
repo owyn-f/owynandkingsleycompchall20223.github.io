@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Times New Roman";
+    }
+    ul {
+    list-style: none;
+    background: blue;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li ul.dropdown li {
+    display: block;
+    }
+    ul li ul.dropdown {
+    width: 100%;
+    background: blue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    }
+    ul li a:hover {
+    background: plum;
+    }
+    ul li:hover ul.dropdown {
+    display: block;
+    }
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+.img img{
+    height: 500px;
+    width: auto;
+    border: 5px solid #555;
+}
+.img {
+    float: right;
+    width: 50%;
+}
+
+.planets table{
+    width: 700px;
+}
+.planets table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.planets th,td{
+    padding: 3px;
+    text-align: center;
+}
+.planets {
+    display: flex;
+    justify-content: left;
+    height: auto;
+    width: 45%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.planets caption{
+    font-size: 20px;
+}
+.para {
+    float: left;
+    width: 45%;
+    padding-top: 35px;
+    padding-left: 15px;
+ 
+}
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <ul class="topdrop">
+        <li><a href="../../../index.html">home</a></li>
+        <li>
+            <a href="../../../index.html">task selection</a>
+            <ul class="dropdown">
+                <li><a href="../../../pages/task1.html">task1</a></li>
+                <li><a href="../../task2/task3.html">task3</a></li>
+                <li><a href="../../task4/task4.html">task4</a></li>
+                <li><a href="../../task5.html">task5</a></li>
+                <li><a href="../../task6/task6.html">task6</a></li>
+                <li><a href="../../task7/task7.html">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="#">python code</a>
+            <ul class="dropdown">
+                <li><a href="../../../python/">folder of all code</a></li>
+                <li><a href="../../../python/datasets">data sets</a></li>
+                <li><a href="../../../python/task1.py">task1</a></li>
+                <li><a href="../../../python/task3.py">task3</a></li>
+                <li><a href="../../../python/task_4.py">task4</a></li>
+                <li><a href="../../../python/task_5.py">task5</a></li>
+                <li><a href="../../../python/task_6.py">task6</a></li>
+                <li><a href="../../../python/task_7.py">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="../task2.html">task 2 selection screen</a></li>
+        <li><a href="#">paper</a></li>
+    </ul>
+<h1>47 Ursae Majoris:</h1>
+<div class="img"><img src="../../../images/systmes/47 UMA.png" class="img"></div>
+<div class="planets">
+<table>
+<caption>planet data:</caption>
+<tr>
+    <th>selestial body:</th>
+    <th>type of body:</th>
+    <th>radii of planet in earth radii:</th>
+    <th>mass in earth masses</th>
+    <th>orbitle period days:</th>
+    <th>orbitle semi major axis in au:</th>
+</tr>
+<tr>
+    <td> 47 Ursae Majoris </td>
+    <td> star (yellow dwarth) </td>
+    <td> -</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+<td> 47 Ursae Majoris b </td>
+<td> Gas Giant </td>
+<td> 13.2 </td>
+<td> 804.08 </td>
+<td> 1078 </td>
+<td> 2.1 </td>
+</tr>
+</tr>
+<td>  47 Ursae Majoris c </td>
+<td> Gas Giant </td>
+<td> 14.2 </td>
+<td> 171.6 </td>
+<td> 2391 </td>
+<td> 3.6 </td>
+</tr>
+</tr>
+<td>  47 Ursae Majoris d </td>
+<td> Gas Giant </td>
+<td> 13.5 </td>
+<td> 521.22 </td>
+<td> 140.2 </td>
+<td> 11.6 </td>
+</tr>
+</table>
+</div>
+<div class="para">
+    <p class="para2"> the star is located fairly close to our Solar System, with a distance of 45.30 light-years from the sun  With a magnitude of +5.03, it has aluminosity around 60% greater than
+          the Sun, it has 3 orbiting planets all of witch are gas giants comparible to jupiter in size. There is also the posibility 
+        of there being a rocky planet in the habitable zone this has been proposed by simulations ran on the system but this has not yet 
+        been observed </p>
+  </div>
+
+</body>
+</html>

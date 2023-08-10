@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Times New Roman";
+    }
+    ul {
+    list-style: none;
+    background: blue;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li ul.dropdown li {
+    display: block;
+    }
+    ul li ul.dropdown {
+    width: 100%;
+    background: blue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    }
+    ul li a:hover {
+    background: plum;
+    }
+    ul li:hover ul.dropdown {
+    display: block;
+    }
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+.img img{
+    height: 500px;
+    width: auto;
+    border: 5px solid #555;
+}
+.img {
+    float: right;
+    width: 50%;
+}
+
+.planets table{
+    width: 700px;
+}
+.planets table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.planets th,td{
+    padding: 3px;
+    text-align: center;
+}
+.planets {
+    display: flex;
+    justify-content: left;
+    height: auto;
+    width: 45%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.planets caption{
+    font-size: 20px;
+}
+.para {
+    float: left;
+    width: 45%;
+    padding-top: 35px;
+    padding-left: 15px;
+ 
+}
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <ul class="topdrop">
+        <li><a href="../../../index.html">home</a></li>
+        <li>
+            <a href="../../../index.html">task selection</a>
+            <ul class="dropdown">
+                <li><a href="../../../pages/task1.html">task1</a></li>
+                <li><a href="../../task2/task2.html">task2</a></li>
+                <li><a href="../../task4/task3.html">task3</a></li>
+                <li><a href="../../task5.html">task5</a></li>
+                <li><a href="../../task6/task6.html">task6</a></li>
+                <li><a href="../../task7/task7.html">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="#">python code</a>
+            <ul class="dropdown">
+                <li><a href="../../../python/">folder of all code</a></li>
+                <li><a href="../../../python/datasets">data sets</a></li>
+                <li><a href="../../../python/task1.py">task1</a></li>
+                <li><a href="../../../python/task2.py">task2</a></li>
+                <li><a href="../../../python/task_4.py">task4</a></li>
+                <li><a href="../../../python/task_5.py">task5</a></li>
+                <li><a href="../../../python/task_6.py">task6</a></li>
+                <li><a href="../../../python/task_7.py">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="../task4.html">task 4 selection screen</a></li>
+        <li><a href="#">paper</a></li>
+    </ul>
+<h1>HD 10180:</h1>
+<div class="img"><IMG src="../../../images/3d gifs/hd10180.gif" class="img"></div>
+<div class="planets">
+<table>
+<caption>planet data:</caption>
+<tr>
+    <th>selestial body:</th>
+    <th>type of body:</th>
+    <th>radii of planet in earth radii:</th>
+    <th>mass in earth masses</th>
+    <th>orbitle period days:</th>
+    <th>orbitle semi major axis in au:</th>
+</tr>
+<tr>
+    <td> HD 10180 </td>
+    <td> star (G type) </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+<tr>
+    <td> HD 10180 c </td>
+    <td> neptune like ice giant </td>
+    <td> 3.68 </td>
+    <td> 13.1 </td>
+    <td> 5.76 </td>
+    <td> 0.06 </td>
+</tr>
+<tr>
+    <td> HD 10180 d </td>
+    <td> neptune like ice giant </td>
+    <td> 3.45 </td>
+    <td> 11.75 </td>
+    <td> 16.36 </td>
+    <td> 0.13 </td>
+</tr>
+<tr>
+    <td>  HD 10180 e </td>
+    <td> neptune like ice giant </td>
+    <td> 5.39 </td>
+    <td> 25.1 </td>
+    <td> 49.75 </td>
+    <td> 0.27 </td>
+    </tr>
+    <tr>
+        <td>  HD 10180 f </td>
+        <td> neptune like ice giant </td>
+        <td> 5.24 </td>
+        <td> 23.9 </td>
+        <td> 122.7 </td>
+        <td> 0.49 </td>
+    </tr>
+    <tr>
+        <td>  HD 10180 g </td>
+        <td> neptune like ice giant </td>
+        <td> 4.91 </td>
+        <td> 21.4 </td>
+        <td> 604.67 </td>
+        <td> 1.43 </td>
+        </tr>
+        <tr>
+            <td>  HD 10180 h </td>
+            <td> gass giant </td>
+            <td> 9.4 </td>
+            <td> 64.4 </td>
+            <td> 2205.0 </td>
+            <td> 3.38 </td>
+            </tr>
+</table>
+</div>
+<div class="para">
+    <p class="para2"> this system islocated 127 light-years (39 parsecs) from Earth. The magnitude of this star is 7.33
+ HD 10180 is a G1V-type star The mass of this star is estimated as 6% greater than the Sun's mass, it has a radius of 120% that of the Sun, and is radiating 149% of
+ the Sun's luminosity. it is orbited by 6 planets 5 of witch are ice giants one of witch is a gas giant.</p>
+  </div>
+</body>
+</html>

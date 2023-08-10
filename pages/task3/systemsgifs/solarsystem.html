@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Times New Roman";
+    }
+    ul {
+    list-style: none;
+    background: blue;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li ul.dropdown li {
+    display: block;
+    }
+    ul li ul.dropdown {
+    width: 100%;
+    background: blue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    }
+    ul li a:hover {
+    background: plum;
+    }
+    ul li:hover ul.dropdown {
+    display: block;
+    }
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+.img img{
+    height: 500px;
+    width: 631px;
+    border: 5px solid #555;
+}
+.img {
+    float: right;
+    width: 50%;
+}
+.planets table{
+    width: 750px;
+    padding-left: 15px;
+}
+.planets table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.planets th,td{
+    padding: 3px;
+    text-align: center;
+}
+.planets {
+    display: flex;
+    justify-content: left;
+    height: auto;
+    width: 50%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.planets caption{
+    font-size: 20px;
+}
+.para {
+    float: right;
+    width: 45%;
+    padding-top: 35px;
+    padding-right: 50px;
+ 
+}
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.img2 {
+    float: right;
+    width: 50%;
+}
+.inner {
+    height: 500px;
+    width: 631px;
+    border: 5px solid #555;
+}
+</style>
+</head>
+<body>
+    <ul class="topdrop">
+        <li><a href="../../../index.html">home</a></li>
+        <li>
+            <a href="../../../index.html">task selection</a>
+            <ul class="dropdown">
+                <li><a href="../../../pages/task1.html">task1</a></li>
+                <li><a href="../../task2/task2.html">task2</a></li>
+                <li><a href="../../task4/task4.html">task4</a></li>
+                <li><a href="../../task5.html">task5</a></li>
+                <li><a href="../../task6/task6.html">task6</a></li>
+                <li><a href="../../task7/task7.html">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="#">python code</a>
+            <ul class="dropdown">
+                <li><a href="../../../python/">folder of all code</a></li>
+                <li><a href="../../../python/datasets">data sets</a></li>
+                <li><a href="../../../python/task1.py">task1</a></li>
+                <li><a href="../../../python/task2.py">task2</a></li>
+                <li><a href="../../../python/task_4.py">task4</a></li>
+                <li><a href="../../../python/task_5.py">task5</a></li>
+                <li><a href="../../../python/task_6.py">task6</a></li>
+                <li><a href="../../../python/task_7.py">task7</a></li>
+                <li><a href="#">exstention</a></li>
+            </ul>
+        </li>
+        <li><a href="../task3.html">task 3 selection screen</a></li>
+        <li><a href="#">paper</a></li>
+    </ul>
+<h1>solarsystem:</h1>
+<div class="img"><IMG src="../../../images/2d gifs /2Douter_solaranim.gif" class="img"></div>
+<div class="img2"><IMG src="../../../images/2d gifs /inner_solaranim.gif" class="inner"></div>
+<div class="planets">
+<table>
+<caption>planet data:</caption>
+<tr>
+    <th>selestial body:</th>
+    <th>type of body:</th>
+    <th>radii of planet in earth radii:</th>
+    <th>mass in earth masses</th>
+    <th>orbitle period years:</th>
+    <th> rotational period days:</th>
+    <th>orbitle semi major axis in au:</th>
+</tr>
+<tr>
+    <td> sun </td>
+    <td> star (yellow dwarth) </td>
+    <td> 109.12 </td>
+    <td> 332,837 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+<tr>
+    <td> mercury </td>
+    <td> rocky planet </td>
+    <td> 0.38 </td>
+    <td> 0.055 </td>
+    <td> 0.24 </td>
+    <td> 58.65 </td>
+    <td> 0.387 </td>
+</tr>
+<tr>
+    <td> venus </td>
+    <td> rocky planet </td>
+    <td> 0.95 </td>
+    <td> 0.815 </td>
+    <td> 0.62 </td>
+    <td> 243.02 </td>
+    <td> 0.723 </td>
+</tr>
+<tr>
+    <td> earth </td>
+    <td> rocky planet </td>
+    <td> 1.00 </td>
+    <td> 1.00 </td>
+    <td> 1.00 </td>
+    <td> 1.00</td>
+    <td> 1.00 </td>
+</tr>
+<tr>
+    <td> mars </td>
+    <td> rocky planet </td>
+    <td> 0.53 </td>
+    <td> 0.107 </td>
+    <td> 1.88 </td>
+    <td> 1.03 </td>
+    <td> 1.523 </td>
+</tr>
+<tr>
+    <td> jupiter </td>
+    <td> gas giant </td>
+    <td> 317.85 </td>
+    <td> 29.63 </td>
+    <td> 11.86 </td>
+    <td> 0.41 </td>
+    <td> 5.20 </td>
+</tr>
+<tr>
+    <td> saturn </td>
+    <td> gas giant </td>
+    <td> 9.45 </td>
+    <td> 95.16 </td>
+    <td> 29.63 </td>
+    <td> 0.44 </td>
+    <td> 9.58 </td>
+</tr>
+<tr>
+    <td> uranus </td>
+    <td> ice giant </td>
+    <td> 4.01 </td>
+    <td> 14.5 </td>
+    <td> 84.75 </td>
+    <td> 0.72 </td>
+    <td> 19.29 </td>
+</tr>
+<tr>
+    <td> neptune </td>
+    <td> ice giant </td>
+    <td> 3.88 </td>
+    <td> 17.20 </td>
+    <td> 166.34 </td>
+    <td> 0.67 </td>
+    <td> 30.25 </td>
+</tr>
+<tr>
+    <td> pluto </td>
+    <td> dwarth planet </td>
+    <td> 0.19 </td>
+    <td> 0.00 </td>
+    <td> 248.35 </td>
+    <td> 6.39 </td>
+    <td> 39.51 </td>
+</tr>
+</table>
+</div>
+<div class="para">
+    <p class="para2">Our solar system is located in the outer spiral arm of the milky way galaxy. our solar system
+        consists of 8 planets and 5 dwarf planets only one of witch has been plotted in pluto as the others are lacking data all
+        of these bar ceris are trans neptunian objects mostly existing in asteroid belts far from earth the
+        reason they are not classified as planets is due to them not clearing the space around them, but they
+        still orbit the sun and assuming a mostly spherical shape.
+        Our solar system consists of a mixture of rocky planets, ice giants and 
+        gas giants witch can be seen in the table above. </p>
+  </div>
+</body>
+</html>
