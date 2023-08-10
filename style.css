@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-family: "Times New Roman";
+}
+h3 {
+    text-align: center;
+    font-family: "Times New Roman";
+}
+body{
+    background-color: #E3F2FD;
+    font-family: "Times New Roman";
+}
+
+#button1 {
+    background-color: gray;
+    font-size: 25px;
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+#button1:hover {
+    background-color: blue;
+}
+.coretasks {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+   column-gap: 2em;
+   row-gap: 2em;
+   text-align: center;
+   font-family: "Times New Roman";
+   padding-top: 2em;
+}
+.coretasks img{
+    width: 275px;
+    height: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman";
+}
+ul {
+list-style: none;
+background: blue;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #FFF;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+}
+ul li ul.dropdown li {
+display: block;
+}
+ul li ul.dropdown {
+width: 100%;
+background: blue;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background: plum;
+}
+ul li:hover ul.dropdown {
+display: block;
+}
